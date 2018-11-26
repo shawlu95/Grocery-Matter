@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11302E361CA352E5000ADECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11302E351CA352E5000ADECC /* main.m */; };
+		11302E391CA352E5000ADECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11302E381CA352E5000ADECC /* AppDelegate.m */; };
+		11302E3F1CA352E5000ADECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11302E3D1CA352E5000ADECC /* Main.storyboard */; };
+		11302E411CA352E5000ADECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11302E401CA352E5000ADECC /* Assets.xcassets */; };
+		11302E441CA352E5000ADECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11302E421CA352E5000ADECC /* LaunchScreen.storyboard */; };
+		11302E4F1CA352E5000ADECC /* GroceryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11302E4E1CA352E5000ADECC /* GroceryTests.m */; };
+		11302E5A1CA352E5000ADECC /* GroceryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11302E591CA352E5000ADECC /* GroceryUITests.m */; };
+		113ABF5D1D2BE17400470AB6 /* GroceryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113ABF5C1D2BE17400470AB6 /* GroceryCell.m */; };
+		114E7F771D37C952002D5D05 /* DayListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 114E7F761D37C952002D5D05 /* DayListVC.m */; };
+		116261B91D38CE6700587C5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116261BB1D38CE6700587C5F /* InfoPlist.strings */; };
+		11BADE2D1D2B7277004338A5 /* ItemDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE2A1D2B7277004338A5 /* ItemDetailVC.m */; };
+		11BADE2E1D2B7277004338A5 /* GroveryListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE2C1D2B7277004338A5 /* GroveryListVC.m */; };
+		11BADE341D2B7281004338A5 /* GroceryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE321D2B7281004338A5 /* GroceryManager.m */; };
+		11BADE371D2B728A004338A5 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE361D2B728A004338A5 /* TextFieldCell.m */; };
+		11BADE3A1D2BB4F6004338A5 /* NavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE391D2BB4F6004338A5 /* NavigationVC.m */; };
+		11BADE451D2BB809004338A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11BADE471D2BB809004338A5 /* Localizable.strings */; };
+		11CD727C1D5A34DA0069706B /* AccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72751D5A34DA0069706B /* AccountVC.m */; };
+		11CD727D1D5A34DA0069706B /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72771D5A34DA0069706B /* LoginVC.m */; };
+		11CD727E1D5A34DA0069706B /* MonthListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72791D5A34DA0069706B /* MonthListVC.m */; };
+		11CD727F1D5A34DA0069706B /* PasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD727B1D5A34DA0069706B /* PasswordVC.m */; };
+		11CD72821D5A34F80069706B /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72811D5A34F80069706B /* SettingCell.m */; };
+		11CD72891D5A351A0069706B /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72841D5A351A0069706B /* JNKeychain.m */; };
+		11CD728A1D5A351A0069706B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72861D5A351A0069706B /* Reachability.m */; };
+		11CD728B1D5A351A0069706B /* ValidateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD72881D5A351A0069706B /* ValidateUtilities.m */; };
+		11CD728E1D5A35300069706B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD728D1D5A35300069706B /* MBProgressHUD.m */; };
+		11E2EE661D387C1F00F5886C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E2EE651D387C1F00F5886C /* CoreData.framework */; };
+		11E2EE6C1D387CF100F5886C /* Grocery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11E2EE6A1D387CF100F5886C /* Grocery.xcdatamodeld */; };
+		11E2EE711D387D4F00F5886C /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2EE6E1D387D4F00F5886C /* Item+CoreDataProperties.m */; };
+		11E2EE721D387D4F00F5886C /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2EE701D387D4F00F5886C /* Item.m */; };
+		11E2EE731D38831900F5886C /* GroveryListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BADE2C1D2B7277004338A5 /* GroveryListVC.m */; };
+		11E2EE761D38890100F5886C /* DateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2EE751D38890100F5886C /* DateUtilities.m */; };
+		11E2EE791D38989800F5886C /* PickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2EE781D38989800F5886C /* PickerCell.m */; };
+		11ECA9331D530AB400B65BFA /* NetworkUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ECA9321D530AB400B65BFA /* NetworkUtilities.m */; };
+		6106F6D51EDF0AE9001EC534 /* ALToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6106F6D41EDF0AE9001EC534 /* ALToastView.m */; };
+		611F13AC1E44C18F0096FD6A /* MGCurrencyExchanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 611F13A91E44C18F0096FD6A /* MGCurrencyExchanger.m */; };
+		611F13AD1E44C18F0096FD6A /* NSLocale+CurrencyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 611F13AB1E44C18F0096FD6A /* NSLocale+CurrencyExtension.m */; };
+		61993B4E1F2F8FF300730617 /* SelectTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61993B4D1F2F8FF300730617 /* SelectTypeVC.m */; };
+		61993B511F2F9D0B00730617 /* StatsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61993B501F2F9D0B00730617 /* StatsVC.m */; };
+		61993B541F2F9D6F00730617 /* RangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61993B531F2F9D6F00730617 /* RangeVC.m */; };
+		61EC01CB1E33E4680009661C /* SelectCurrencyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC01CA1E33E4680009661C /* SelectCurrencyVC.m */; };
+		966F96BE1F55913300CF1728 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F96BD1F55913300CF1728 /* SubViewController.m */; };
+		96BEA1001F3F19FC00CE7036 /* IPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BEA0FF1F3F19FC00CE7036 /* IPVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11302E4B1CA352E5000ADECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11302E291CA352E5000ADECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11302E301CA352E5000ADECC;
+			remoteInfo = Grocery;
+		};
+		11302E561CA352E5000ADECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11302E291CA352E5000ADECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11302E301CA352E5000ADECC;
+			remoteInfo = Grocery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11302E311CA352E5000ADECC /* Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11302E351CA352E5000ADECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11302E371CA352E5000ADECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11302E381CA352E5000ADECC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11302E3E1CA352E5000ADECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11302E401CA352E5000ADECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11302E431CA352E5000ADECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11302E4A1CA352E5000ADECC /* GroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11302E4E1CA352E5000ADECC /* GroceryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryTests.m; sourceTree = "<group>"; };
+		11302E501CA352E5000ADECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11302E551CA352E5000ADECC /* GroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11302E591CA352E5000ADECC /* GroceryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryUITests.m; sourceTree = "<group>"; };
+		11302E5B1CA352E5000ADECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113ABF5B1D2BE17400470AB6 /* GroceryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryCell.h; path = View/GroceryCell.h; sourceTree = "<group>"; };
+		113ABF5C1D2BE17400470AB6 /* GroceryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroceryCell.m; path = View/GroceryCell.m; sourceTree = "<group>"; };
+		114948C81D2F3A4C00BE940C /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Model/Macros.h; sourceTree = "<group>"; };
+		114C213E1D2F558D00D67615 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114E7F751D37C952002D5D05 /* DayListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DayListVC.h; path = Controller/DayListVC.h; sourceTree = "<group>"; };
+		114E7F761D37C952002D5D05 /* DayListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayListVC.m; path = Controller/DayListVC.m; sourceTree = "<group>"; };
+		116261BA1D38CE6700587C5F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		116261BC1D38CE7800587C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11BADE291D2B7277004338A5 /* ItemDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailVC.h; path = Controller/ItemDetailVC.h; sourceTree = "<group>"; };
+		11BADE2A1D2B7277004338A5 /* ItemDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailVC.m; path = Controller/ItemDetailVC.m; sourceTree = "<group>"; };
+		11BADE2B1D2B7277004338A5 /* GroveryListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroveryListVC.h; path = Controller/GroveryListVC.h; sourceTree = "<group>"; };
+		11BADE2C1D2B7277004338A5 /* GroveryListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroveryListVC.m; path = Controller/GroveryListVC.m; sourceTree = "<group>"; };
+		11BADE311D2B7281004338A5 /* GroceryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryManager.h; path = Model/GroceryManager.h; sourceTree = "<group>"; };
+		11BADE321D2B7281004338A5 /* GroceryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroceryManager.m; path = Model/GroceryManager.m; sourceTree = "<group>"; };
+		11BADE351D2B728A004338A5 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldCell.h; path = View/TextFieldCell.h; sourceTree = "<group>"; };
+		11BADE361D2B728A004338A5 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextFieldCell.m; path = View/TextFieldCell.m; sourceTree = "<group>"; };
+		11BADE381D2BB4F6004338A5 /* NavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationVC.h; path = Controller/NavigationVC.h; sourceTree = "<group>"; };
+		11BADE391D2BB4F6004338A5 /* NavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationVC.m; path = Controller/NavigationVC.m; sourceTree = "<group>"; };
+		11BADE3B1D2BB6C4004338A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		11BADE3C1D2BB6C4004338A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		11BADE461D2BB809004338A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		11BADE481D2BB80B004338A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11CD72741D5A34DA0069706B /* AccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountVC.h; path = Controller/AccountVC.h; sourceTree = "<group>"; };
+		11CD72751D5A34DA0069706B /* AccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountVC.m; path = Controller/AccountVC.m; sourceTree = "<group>"; };
+		11CD72761D5A34DA0069706B /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = Controller/LoginVC.h; sourceTree = "<group>"; };
+		11CD72771D5A34DA0069706B /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = Controller/LoginVC.m; sourceTree = "<group>"; };
+		11CD72781D5A34DA0069706B /* MonthListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonthListVC.h; path = Controller/MonthListVC.h; sourceTree = "<group>"; };
+		11CD72791D5A34DA0069706B /* MonthListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MonthListVC.m; path = Controller/MonthListVC.m; sourceTree = "<group>"; };
+		11CD727A1D5A34DA0069706B /* PasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PasswordVC.h; path = Controller/PasswordVC.h; sourceTree = "<group>"; };
+		11CD727B1D5A34DA0069706B /* PasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordVC.m; path = Controller/PasswordVC.m; sourceTree = "<group>"; };
+		11CD72801D5A34F80069706B /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingCell.h; path = View/SettingCell.h; sourceTree = "<group>"; };
+		11CD72811D5A34F80069706B /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingCell.m; path = View/SettingCell.m; sourceTree = "<group>"; };
+		11CD72831D5A351A0069706B /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNKeychain.h; path = Model/JNKeychain.h; sourceTree = "<group>"; };
+		11CD72841D5A351A0069706B /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNKeychain.m; path = Model/JNKeychain.m; sourceTree = "<group>"; };
+		11CD72851D5A351A0069706B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Model/Reachability.h; sourceTree = "<group>"; };
+		11CD72861D5A351A0069706B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Model/Reachability.m; sourceTree = "<group>"; };
+		11CD72871D5A351A0069706B /* ValidateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidateUtilities.h; path = Model/ValidateUtilities.h; sourceTree = "<group>"; };
+		11CD72881D5A351A0069706B /* ValidateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidateUtilities.m; path = Model/ValidateUtilities.m; sourceTree = "<group>"; };
+		11CD728C1D5A35300069706B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = View/MBProgressHUD.h; sourceTree = "<group>"; };
+		11CD728D1D5A35300069706B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = View/MBProgressHUD.m; sourceTree = "<group>"; };
+		11E2EE651D387C1F00F5886C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		11E2EE6B1D387CF100F5886C /* Grocery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery.xcdatamodel; sourceTree = "<group>"; };
+		11E2EE6D1D387D4F00F5886C /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Item+CoreDataProperties.h"; path = "Model/Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		11E2EE6E1D387D4F00F5886C /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Item+CoreDataProperties.m"; path = "Model/Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		11E2EE6F1D387D4F00F5886C /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Model/Item.h; sourceTree = "<group>"; };
+		11E2EE701D387D4F00F5886C /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Model/Item.m; sourceTree = "<group>"; };
+		11E2EE741D38890100F5886C /* DateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateUtilities.h; path = Model/DateUtilities.h; sourceTree = "<group>"; };
+		11E2EE751D38890100F5886C /* DateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateUtilities.m; path = Model/DateUtilities.m; sourceTree = "<group>"; };
+		11E2EE771D38989800F5886C /* PickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerCell.h; path = View/PickerCell.h; sourceTree = "<group>"; };
+		11E2EE781D38989800F5886C /* PickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerCell.m; path = View/PickerCell.m; sourceTree = "<group>"; };
+		11ECA9311D530AB400B65BFA /* NetworkUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkUtilities.h; path = Model/NetworkUtilities.h; sourceTree = "<group>"; };
+		11ECA9321D530AB400B65BFA /* NetworkUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkUtilities.m; path = Model/NetworkUtilities.m; sourceTree = "<group>"; };
+		6106F6D31EDF0AE9001EC534 /* ALToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALToastView.h; path = View/ALToastView.h; sourceTree = "<group>"; };
+		6106F6D41EDF0AE9001EC534 /* ALToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALToastView.m; path = View/ALToastView.m; sourceTree = "<group>"; };
+		611F13A71E44C18F0096FD6A /* MGCountryNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGCountryNames.h; path = UnitConverter/MGCountryNames.h; sourceTree = "<group>"; };
+		611F13A81E44C18F0096FD6A /* MGCurrencyExchanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGCurrencyExchanger.h; path = UnitConverter/MGCurrencyExchanger.h; sourceTree = "<group>"; };
+		611F13A91E44C18F0096FD6A /* MGCurrencyExchanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGCurrencyExchanger.m; path = UnitConverter/MGCurrencyExchanger.m; sourceTree = "<group>"; };
+		611F13AA1E44C18F0096FD6A /* NSLocale+CurrencyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLocale+CurrencyExtension.h"; path = "UnitConverter/NSLocale+CurrencyExtension.h"; sourceTree = "<group>"; };
+		611F13AB1E44C18F0096FD6A /* NSLocale+CurrencyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+CurrencyExtension.m"; path = "UnitConverter/NSLocale+CurrencyExtension.m"; sourceTree = "<group>"; };
+		61993B4C1F2F8FF300730617 /* SelectTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectTypeVC.h; path = Controller/SelectTypeVC.h; sourceTree = "<group>"; };
+		61993B4D1F2F8FF300730617 /* SelectTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectTypeVC.m; path = Controller/SelectTypeVC.m; sourceTree = "<group>"; };
+		61993B4F1F2F9D0B00730617 /* StatsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatsVC.h; path = Controller/StatsVC.h; sourceTree = "<group>"; };
+		61993B501F2F9D0B00730617 /* StatsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatsVC.m; path = Controller/StatsVC.m; sourceTree = "<group>"; };
+		61993B521F2F9D6F00730617 /* RangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RangeVC.h; path = Controller/RangeVC.h; sourceTree = "<group>"; };
+		61993B531F2F9D6F00730617 /* RangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RangeVC.m; path = Controller/RangeVC.m; sourceTree = "<group>"; };
+		61EC01C91E33E4680009661C /* SelectCurrencyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectCurrencyVC.h; path = Controller/SelectCurrencyVC.h; sourceTree = "<group>"; };
+		61EC01CA1E33E4680009661C /* SelectCurrencyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectCurrencyVC.m; path = Controller/SelectCurrencyVC.m; sourceTree = "<group>"; };
+		966F96BC1F55913300CF1728 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubViewController.h; path = Controller/SubViewController.h; sourceTree = "<group>"; };
+		966F96BD1F55913300CF1728 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubViewController.m; path = Controller/SubViewController.m; sourceTree = "<group>"; };
+		96BEA0FE1F3F19FC00CE7036 /* IPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPVC.h; path = Controller/IPVC.h; sourceTree = "<group>"; };
+		96BEA0FF1F3F19FC00CE7036 /* IPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPVC.m; path = Controller/IPVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11302E2E1CA352E5000ADECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E2EE661D387C1F00F5886C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E471CA352E5000ADECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E521CA352E5000ADECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11302E281CA352E5000ADECC = {
+			isa = PBXGroup;
+			children = (
+				11E2EE651D387C1F00F5886C /* CoreData.framework */,
+				11302E331CA352E5000ADECC /* Grocery */,
+				11302E4D1CA352E5000ADECC /* GroceryTests */,
+				11302E581CA352E5000ADECC /* GroceryUITests */,
+				11302E321CA352E5000ADECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11302E321CA352E5000ADECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11302E311CA352E5000ADECC /* Grocery.app */,
+				11302E4A1CA352E5000ADECC /* GroceryTests.xctest */,
+				11302E551CA352E5000ADECC /* GroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11302E331CA352E5000ADECC /* Grocery */ = {
+			isa = PBXGroup;
+			children = (
+				11302E371CA352E5000ADECC /* AppDelegate.h */,
+				11302E381CA352E5000ADECC /* AppDelegate.m */,
+				11302E401CA352E5000ADECC /* Assets.xcassets */,
+				11302E3D1CA352E5000ADECC /* Main.storyboard */,
+				11302E421CA352E5000ADECC /* LaunchScreen.storyboard */,
+				11BADE261D2B7052004338A5 /* Model */,
+				11BADE281D2B7070004338A5 /* View */,
+				11BADE271D2B7066004338A5 /* Controller */,
+				61563A251E3369A0002C948F /* UnitConverter */,
+				114C213E1D2F558D00D67615 /* Info.plist */,
+				116261BB1D38CE6700587C5F /* InfoPlist.strings */,
+				11BADE471D2BB809004338A5 /* Localizable.strings */,
+				11302E341CA352E5000ADECC /* Supporting Files */,
+			);
+			path = Grocery;
+			sourceTree = "<group>";
+		};
+		11302E341CA352E5000ADECC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E2EE6A1D387CF100F5886C /* Grocery.xcdatamodeld */,
+				114948C81D2F3A4C00BE940C /* Macros.h */,
+				11302E351CA352E5000ADECC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11302E4D1CA352E5000ADECC /* GroceryTests */ = {
+			isa = PBXGroup;
+			children = (
+				11302E4E1CA352E5000ADECC /* GroceryTests.m */,
+				11302E501CA352E5000ADECC /* Info.plist */,
+			);
+			path = GroceryTests;
+			sourceTree = "<group>";
+		};
+		11302E581CA352E5000ADECC /* GroceryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11302E591CA352E5000ADECC /* GroceryUITests.m */,
+				11302E5B1CA352E5000ADECC /* Info.plist */,
+			);
+			path = GroceryUITests;
+			sourceTree = "<group>";
+		};
+		11BADE261D2B7052004338A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11E2EE6D1D387D4F00F5886C /* Item+CoreDataProperties.h */,
+				11E2EE6E1D387D4F00F5886C /* Item+CoreDataProperties.m */,
+				11E2EE6F1D387D4F00F5886C /* Item.h */,
+				11E2EE701D387D4F00F5886C /* Item.m */,
+				11E2EE741D38890100F5886C /* DateUtilities.h */,
+				11E2EE751D38890100F5886C /* DateUtilities.m */,
+				11ECA9311D530AB400B65BFA /* NetworkUtilities.h */,
+				11ECA9321D530AB400B65BFA /* NetworkUtilities.m */,
+				11CD72831D5A351A0069706B /* JNKeychain.h */,
+				11CD72841D5A351A0069706B /* JNKeychain.m */,
+				11CD72851D5A351A0069706B /* Reachability.h */,
+				11CD72861D5A351A0069706B /* Reachability.m */,
+				11CD72871D5A351A0069706B /* ValidateUtilities.h */,
+				11CD72881D5A351A0069706B /* ValidateUtilities.m */,
+				11BADE311D2B7281004338A5 /* GroceryManager.h */,
+				11BADE321D2B7281004338A5 /* GroceryManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		11BADE271D2B7066004338A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11BADE381D2BB4F6004338A5 /* NavigationVC.h */,
+				11BADE391D2BB4F6004338A5 /* NavigationVC.m */,
+				966F96BC1F55913300CF1728 /* SubViewController.h */,
+				966F96BD1F55913300CF1728 /* SubViewController.m */,
+				11BADE2B1D2B7277004338A5 /* GroveryListVC.h */,
+				11BADE2C1D2B7277004338A5 /* GroveryListVC.m */,
+				114E7F751D37C952002D5D05 /* DayListVC.h */,
+				114E7F761D37C952002D5D05 /* DayListVC.m */,
+				11BADE291D2B7277004338A5 /* ItemDetailVC.h */,
+				11BADE2A1D2B7277004338A5 /* ItemDetailVC.m */,
+				61EC01C91E33E4680009661C /* SelectCurrencyVC.h */,
+				61EC01CA1E33E4680009661C /* SelectCurrencyVC.m */,
+				61993B4C1F2F8FF300730617 /* SelectTypeVC.h */,
+				61993B4D1F2F8FF300730617 /* SelectTypeVC.m */,
+				11CD72741D5A34DA0069706B /* AccountVC.h */,
+				11CD72751D5A34DA0069706B /* AccountVC.m */,
+				11CD72761D5A34DA0069706B /* LoginVC.h */,
+				11CD72771D5A34DA0069706B /* LoginVC.m */,
+				11CD72781D5A34DA0069706B /* MonthListVC.h */,
+				11CD72791D5A34DA0069706B /* MonthListVC.m */,
+				11CD727A1D5A34DA0069706B /* PasswordVC.h */,
+				11CD727B1D5A34DA0069706B /* PasswordVC.m */,
+				96BEA0FE1F3F19FC00CE7036 /* IPVC.h */,
+				96BEA0FF1F3F19FC00CE7036 /* IPVC.m */,
+				61993B521F2F9D6F00730617 /* RangeVC.h */,
+				61993B531F2F9D6F00730617 /* RangeVC.m */,
+				61993B4F1F2F9D0B00730617 /* StatsVC.h */,
+				61993B501F2F9D0B00730617 /* StatsVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		11BADE281D2B7070004338A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6106F6D31EDF0AE9001EC534 /* ALToastView.h */,
+				6106F6D41EDF0AE9001EC534 /* ALToastView.m */,
+				11CD72801D5A34F80069706B /* SettingCell.h */,
+				11CD72811D5A34F80069706B /* SettingCell.m */,
+				11CD728C1D5A35300069706B /* MBProgressHUD.h */,
+				11CD728D1D5A35300069706B /* MBProgressHUD.m */,
+				113ABF5B1D2BE17400470AB6 /* GroceryCell.h */,
+				113ABF5C1D2BE17400470AB6 /* GroceryCell.m */,
+				11BADE351D2B728A004338A5 /* TextFieldCell.h */,
+				11BADE361D2B728A004338A5 /* TextFieldCell.m */,
+				11E2EE771D38989800F5886C /* PickerCell.h */,
+				11E2EE781D38989800F5886C /* PickerCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		61563A251E3369A0002C948F /* UnitConverter */ = {
+			isa = PBXGroup;
+			children = (
+				611F13A71E44C18F0096FD6A /* MGCountryNames.h */,
+				611F13A81E44C18F0096FD6A /* MGCurrencyExchanger.h */,
+				611F13A91E44C18F0096FD6A /* MGCurrencyExchanger.m */,
+				611F13AA1E44C18F0096FD6A /* NSLocale+CurrencyExtension.h */,
+				611F13AB1E44C18F0096FD6A /* NSLocale+CurrencyExtension.m */,
+			);
+			name = UnitConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11302E301CA352E5000ADECC /* Grocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11302E5E1CA352E5000ADECC /* Build configuration list for PBXNativeTarget "Grocery" */;
+			buildPhases = (
+				11302E2D1CA352E5000ADECC /* Sources */,
+				11302E2E1CA352E5000ADECC /* Frameworks */,
+				11302E2F1CA352E5000ADECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grocery;
+			productName = Grocery;
+			productReference = 11302E311CA352E5000ADECC /* Grocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11302E491CA352E5000ADECC /* GroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11302E611CA352E5000ADECC /* Build configuration list for PBXNativeTarget "GroceryTests" */;
+			buildPhases = (
+				11302E461CA352E5000ADECC /* Sources */,
+				11302E471CA352E5000ADECC /* Frameworks */,
+				11302E481CA352E5000ADECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11302E4C1CA352E5000ADECC /* PBXTargetDependency */,
+			);
+			name = GroceryTests;
+			productName = GroceryTests;
+			productReference = 11302E4A1CA352E5000ADECC /* GroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11302E541CA352E5000ADECC /* GroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11302E641CA352E5000ADECC /* Build configuration list for PBXNativeTarget "GroceryUITests" */;
+			buildPhases = (
+				11302E511CA352E5000ADECC /* Sources */,
+				11302E521CA352E5000ADECC /* Frameworks */,
+				11302E531CA352E5000ADECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11302E571CA352E5000ADECC /* PBXTargetDependency */,
+			);
+			name = GroceryUITests;
+			productName = GroceryUITests;
+			productReference = 11302E551CA352E5000ADECC /* GroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11302E291CA352E5000ADECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Xiao Lu";
+				TargetAttributes = {
+					11302E301CA352E5000ADECC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K7U2974RH8;
+						ProvisioningStyle = Automatic;
+					};
+					11302E491CA352E5000ADECC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 11302E301CA352E5000ADECC;
+					};
+					11302E541CA352E5000ADECC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 11302E301CA352E5000ADECC;
+					};
+				};
+			};
+			buildConfigurationList = 11302E2C1CA352E5000ADECC /* Build configuration list for PBXProject "Grocery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11302E281CA352E5000ADECC;
+			productRefGroup = 11302E321CA352E5000ADECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11302E301CA352E5000ADECC /* Grocery */,
+				11302E491CA352E5000ADECC /* GroceryTests */,
+				11302E541CA352E5000ADECC /* GroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11302E2F1CA352E5000ADECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116261B91D38CE6700587C5F /* InfoPlist.strings in Resources */,
+				11BADE451D2BB809004338A5 /* Localizable.strings in Resources */,
+				11302E441CA352E5000ADECC /* LaunchScreen.storyboard in Resources */,
+				11302E411CA352E5000ADECC /* Assets.xcassets in Resources */,
+				11302E3F1CA352E5000ADECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E481CA352E5000ADECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E531CA352E5000ADECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11302E2D1CA352E5000ADECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CD728A1D5A351A0069706B /* Reachability.m in Sources */,
+				61EC01CB1E33E4680009661C /* SelectCurrencyVC.m in Sources */,
+				11CD727E1D5A34DA0069706B /* MonthListVC.m in Sources */,
+				11BADE341D2B7281004338A5 /* GroceryManager.m in Sources */,
+				11E2EE791D38989800F5886C /* PickerCell.m in Sources */,
+				11BADE2E1D2B7277004338A5 /* GroveryListVC.m in Sources */,
+				11E2EE6C1D387CF100F5886C /* Grocery.xcdatamodeld in Sources */,
+				11BADE3A1D2BB4F6004338A5 /* NavigationVC.m in Sources */,
+				11CD72821D5A34F80069706B /* SettingCell.m in Sources */,
+				11BADE371D2B728A004338A5 /* TextFieldCell.m in Sources */,
+				113ABF5D1D2BE17400470AB6 /* GroceryCell.m in Sources */,
+				11CD728B1D5A351A0069706B /* ValidateUtilities.m in Sources */,
+				11CD727D1D5A34DA0069706B /* LoginVC.m in Sources */,
+				11CD727C1D5A34DA0069706B /* AccountVC.m in Sources */,
+				61993B541F2F9D6F00730617 /* RangeVC.m in Sources */,
+				11CD72891D5A351A0069706B /* JNKeychain.m in Sources */,
+				11ECA9331D530AB400B65BFA /* NetworkUtilities.m in Sources */,
+				11302E391CA352E5000ADECC /* AppDelegate.m in Sources */,
+				11CD728E1D5A35300069706B /* MBProgressHUD.m in Sources */,
+				96BEA1001F3F19FC00CE7036 /* IPVC.m in Sources */,
+				11E2EE721D387D4F00F5886C /* Item.m in Sources */,
+				114E7F771D37C952002D5D05 /* DayListVC.m in Sources */,
+				61993B511F2F9D0B00730617 /* StatsVC.m in Sources */,
+				611F13AC1E44C18F0096FD6A /* MGCurrencyExchanger.m in Sources */,
+				966F96BE1F55913300CF1728 /* SubViewController.m in Sources */,
+				11CD727F1D5A34DA0069706B /* PasswordVC.m in Sources */,
+				11BADE2D1D2B7277004338A5 /* ItemDetailVC.m in Sources */,
+				61993B4E1F2F8FF300730617 /* SelectTypeVC.m in Sources */,
+				611F13AD1E44C18F0096FD6A /* NSLocale+CurrencyExtension.m in Sources */,
+				6106F6D51EDF0AE9001EC534 /* ALToastView.m in Sources */,
+				11E2EE711D387D4F00F5886C /* Item+CoreDataProperties.m in Sources */,
+				11302E361CA352E5000ADECC /* main.m in Sources */,
+				11E2EE761D38890100F5886C /* DateUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E461CA352E5000ADECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11302E4F1CA352E5000ADECC /* GroceryTests.m in Sources */,
+				11E2EE731D38831900F5886C /* GroveryListVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11302E511CA352E5000ADECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11302E5A1CA352E5000ADECC /* GroceryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11302E4C1CA352E5000ADECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11302E301CA352E5000ADECC /* Grocery */;
+			targetProxy = 11302E4B1CA352E5000ADECC /* PBXContainerItemProxy */;
+		};
+		11302E571CA352E5000ADECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11302E301CA352E5000ADECC /* Grocery */;
+			targetProxy = 11302E561CA352E5000ADECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11302E3D1CA352E5000ADECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11302E3E1CA352E5000ADECC /* Base */,
+				11BADE3B1D2BB6C4004338A5 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11302E421CA352E5000ADECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11302E431CA352E5000ADECC /* Base */,
+				11BADE3C1D2BB6C4004338A5 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		116261BB1D38CE6700587C5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116261BA1D38CE6700587C5F /* zh-Hans */,
+				116261BC1D38CE7800587C5F /* Base */,
+			);
+			name = InfoPlist.strings;
+			path = strings;
+			sourceTree = "<group>";
+		};
+		11BADE471D2BB809004338A5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BADE461D2BB809004338A5 /* zh-Hans */,
+				11BADE481D2BB80B004338A5 /* Base */,
+			);
+			name = Localizable.strings;
+			path = strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11302E5C1CA352E5000ADECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11302E5D1CA352E5000ADECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11302E5F1CA352E5000ADECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K7U2974RH8;
+				INFOPLIST_FILE = Grocery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.Grocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		11302E601CA352E5000ADECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K7U2974RH8;
+				INFOPLIST_FILE = Grocery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.Grocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		11302E621CA352E5000ADECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.GroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grocery.app/Grocery";
+			};
+			name = Debug;
+		};
+		11302E631CA352E5000ADECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroceryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.GroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grocery.app/Grocery";
+			};
+			name = Release;
+		};
+		11302E651CA352E5000ADECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroceryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.GroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grocery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11302E661CA352E5000ADECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroceryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoJonesLu.GroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grocery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11302E2C1CA352E5000ADECC /* Build configuration list for PBXProject "Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11302E5C1CA352E5000ADECC /* Debug */,
+				11302E5D1CA352E5000ADECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11302E5E1CA352E5000ADECC /* Build configuration list for PBXNativeTarget "Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11302E5F1CA352E5000ADECC /* Debug */,
+				11302E601CA352E5000ADECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11302E611CA352E5000ADECC /* Build configuration list for PBXNativeTarget "GroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11302E621CA352E5000ADECC /* Debug */,
+				11302E631CA352E5000ADECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11302E641CA352E5000ADECC /* Build configuration list for PBXNativeTarget "GroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11302E651CA352E5000ADECC /* Debug */,
+				11302E661CA352E5000ADECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11E2EE6A1D387CF100F5886C /* Grocery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11E2EE6B1D387CF100F5886C /* Grocery.xcdatamodel */,
+			);
+			currentVersion = 11E2EE6B1D387CF100F5886C /* Grocery.xcdatamodel */;
+			name = Grocery.xcdatamodeld;
+			path = Model/Grocery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11302E291CA352E5000ADECC /* Project object */;
+}
