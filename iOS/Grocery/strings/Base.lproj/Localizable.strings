@@ -1,0 +1,137 @@
+/* 
+  Localizable.strings
+  Grocery
+
+  Created by Xiao on 7/5/16.
+  Copyright © 2016 Xiao Lu. All rights reserved.
+*/
+
+"NUM_ITEMS_TIMES_PRICE_EQUAL_NET" = "%@ x %@ %@ = %@ ¥";
+
+"CASH_SHORT" = "%.1f CNY";
+
+"ITEM_CELL_TITLE" = "Item";
+
+"COUNT_CELL_TITLE" = "Count";
+
+"PRICE_CELL_TITLE" = "Price";
+
+"TYPE_CELL_TITLE" = "Type";
+
+"CURRENCY_CELL_TITLE" = "Currency";
+
+"PRICECNY_CELL_TITLE" = "CNY(¥)";
+
+"PRICE_CELL_DATE" = "Date";
+
+"TOTAL_CELL_TITLE" = "Total";
+
+"TYPE_LOV" = "❤️";
+
+"TYPE_EDU" = "Education";
+
+"TYPE_FOO" = "Food";
+
+"TYPE_CLO" = "Clothing";
+
+"TYPE_SAR" = "Sartorial";
+
+"TYPE_SHO" = "Shoes";
+
+"TYPE_ACC" = "Accessory";
+
+"TYPE_STA" = "Stationery";
+
+"TYPE_PEN" = "Pens";
+
+"TYPE_HYG" = "Health";
+
+"TYPE_BOO" = "Book";
+
+"TYPE_FUR" = "Furniture";
+
+"TYPE_ELE" = "Electronics";
+
+"TYPE_SOF" = "IT";
+
+"TYPE_COM" = "Communication";
+
+"TYPE_SOC" = "Social";
+
+"TYPE_TRA" = "Transportation";
+
+"TYPE_ENT" = "Amusement";
+
+"TYPE_HOU" = "Housing";
+
+"TYPE_AUT" = "Automobile";
+
+"TYPE_LEG" = "Legal";
+
+"TYPE_TAX" = "Tax";
+
+"TYPE_INS" = "Insurance";
+
+"TYPE_MIS" = "Miscellany";
+
+"TYPE_INV" = "Investing";
+
+"START_DATE" = "Start Date";
+
+"END_DATE" = "End Date";
+
+"STATS" = "Stats";
+
+"ITEM_CELL_PLACEHOLDER" = "Name of item";
+
+"COUNT_CELL_PLACEHOLDER" = "Number of items";
+
+"PRICE_CELL_PLACEHOLDER" = "Price for each";
+
+"INVALID_NUM_ALERT_TITLE" = "Invalid Number";
+
+"INVALID_NUM_ALERT_MESSAGE" = "Please enter a valid number for 'price' and 'count'.";
+
+"NO_ITEM_NAME_ALERT_TITLE" = "Invalid Name";
+
+"NO_ITEM_NAME_ALERT_MESSAGE" = "Please enter name of the item.";
+
+"ALERT_DISMISS" = "Okay";
+
+"USER_ID_CELL_TITLE" = "User ID";
+
+"CHANGE_PASSWORD_CELL_TITLE" = "Change Password";
+
+"LOGIN_CELL_TITLE" = "Login";
+
+"LOGOUT_CELL_TITLE" = "Logout";
+
+"SIGNUP_CELL_TITLE" = "Signup";
+
+"PASSWORD_CELL_TITLE" = "Password";
+
+"NO_ACCOUNT" = "None";
+
+"OLD_PASSWORD_PLACEHOLDER" = "Old Password";
+
+"NEW_PASSWORD_PLACEHOLDER" = "New Password";
+
+"ALERT" = "Error";
+"DISMISS_ALERT_ACTION_DEFAULT" = "Okay";
+"MISSING_INPUT" = "Required field empty.";
+"ALERT_LOGIN_FAILED_SUBTEXT_NO_ACCOUNT_INPUT" = "Please enter user ID.";
+"ALERT_LOGIN_FAILED_SUBTEXT_NO_PASSWORD_INPUT" = "Please enter password";
+
+"ALERT_LOGIN_FAILED_SUBTEXT_INCORRECT_CREDENTIALS" = "Password invalid.";
+"ALERT_LOGIN_FAILED_SUBTEXT_ACCOUNT_DOES_NOT_EXIST" = "Account does not exist.";
+
+"REGISTER_FAILED_INVALID_USER_ID" = "Username contains illegal characters. Please use letters (case-insensitive) and numbers only.";
+"REGISTER_FAILED_ID_LENGTH_INVALID" = "Keep your userID between 5~20 characters.";
+"REGISTER_FAILED_INVALID_PASSWORD" = "Password contains illegal characters. Please use letters (case-sensitive) and numbers only.";
+"REGISTER_FAILED_PASSWORD_LENGTH_INVALID" = "Keep your password between 8~20 characters.";
+"REGISTER_FAILED_USER_EXISTS" = "Account already exists";
+
+"REGISTER_FAILED_PASSWORD_MISMATCH" = "Passwords do not match.";
+
+"CONNECTION_FAILED" = "Connection Failed";
+"CONNECTION_FAILED_NO_INTERNET" = "Device is not connected to the internet.";

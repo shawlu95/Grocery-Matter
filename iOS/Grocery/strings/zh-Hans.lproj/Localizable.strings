@@ -1,0 +1,138 @@
+/* 
+  Localizable.strings
+  Grocery
+
+  Created by Xiao on 7/5/16.
+  Copyright © 2016 Xiao Lu. All rights reserved.
+*/
+
+"NUM_ITEMS_TIMES_PRICE_EQUAL_NET" = "%@ x %@ %@ = %@ ¥";
+
+"CASH_SHORT" = "%.1f元";
+
+"ITEM_CELL_TITLE" = "物品";
+
+"COUNT_CELL_TITLE" = "数量";
+
+"PRICE_CELL_TITLE" = "支付";
+
+"TYPE_CELL_TITLE" = "分类";
+
+"CURRENCY_CELL_TITLE" = "支付货币";
+
+"PRICECNY_CELL_TITLE" = "人民币";
+
+"PRICE_CELL_DATE" = "日期";
+
+"TOTAL_CELL_TITLE" = "总消费";
+
+"TYPE_LOV" = "❤️";
+
+"TYPE_EDU" = "教育";
+
+"TYPE_FOO" = "食物";
+
+"TYPE_CLO" = "衣服";
+
+"TYPE_SAR" = "衣柜";
+
+"TYPE_SHO" = "鞋子";
+
+"TYPE_ACC" = "配饰";
+
+"TYPE_STA" = "文具";
+
+"TYPE_PEN" = "钢笔";
+
+"TYPE_HYG" = "健康";
+
+"TYPE_BOO" = "书籍";
+
+"TYPE_FUR" = "家居";
+
+"TYPE_ELE" = "电器";
+
+"TYPE_SOF" = "软件";
+
+"TYPE_COM" = "通讯";
+
+"TYPE_SOC" = "社交";
+
+"TYPE_TRA" = "交通";
+
+"TYPE_ENT" = "娱乐";
+
+"TYPE_HOU" = "住宿";
+
+"TYPE_AUT" = "车油";
+
+"TYPE_LEG" = "公务";
+
+"TYPE_TAX" = "办税";
+
+"TYPE_INS" = "保险";
+
+"TYPE_MIS" = "其他";
+
+"TYPE_INV" = "投资";
+
+"START_DATE" = "开始日期";
+
+"END_DATE" = "结束日期";
+
+"STATS" = "统计";
+
+"ITEM_CELL_PLACEHOLDER" = "输入物品名称";
+
+"COUNT_CELL_PLACEHOLDER" = "输入购买数量";
+
+"PRICE_CELL_PLACEHOLDER" = "输入商品单价";
+
+"INVALID_NUM_ALERT_TITLE" = "数字无效";
+
+"INVALID_NUM_ALERT_MESSAGE" = "请在\"数量\"和\"支付\"栏输入有效数字";
+
+"NO_ITEM_NAME_ALERT_TITLE" = "未输入名称";
+
+"NO_ITEM_NAME_ALERT_MESSAGE" = "请输入商品名称";
+
+"ALERT_DISMISS" = "知道了";
+
+"USER_ID_CELL_TITLE" = "账号";
+
+"CHANGE_PASSWORD_CELL_TITLE" = "修改密码";
+
+"LOGIN_CELL_TITLE" = "登录";
+
+"LOGOUT_CELL_TITLE" = "退出";
+
+"SIGNUP_CELL_TITLE" = "注册";
+
+"PASSWORD_CELL_TITLE" = "密码";
+
+"NO_ACCOUNT" = "未登录";
+
+"OLD_PASSWORD_PLACEHOLDER" = "原密码";
+
+"NEW_PASSWORD_PLACEHOLDER" = "新密码";
+
+"DISMISS_ALERT_ACTION_DEFAULT" = "知道了";
+
+"ALERT" = "操作失败";
+"DISMISS_ALERT_ACTION_DEFAULT" = "知道了";
+"ALERT_LOGIN_FAILED_SUBTEXT_NO_ACCOUNT_INPUT" = "请输入账号。";
+"ALERT_LOGIN_FAILED_SUBTEXT_NO_PASSWORD_INPUT" = "请输入密码";
+
+"ALERT_LOGIN_FAILED_SUBTEXT_INCORRECT_CREDENTIALS" = "密码错误。";
+"ALERT_LOGIN_FAILED_SUBTEXT_ACCOUNT_DOES_NOT_EXIST" = "账号不存在。";
+
+"REGISTER_FAILED_INVALID_USER_ID" = "账号无效，仅限数字和字母，区分大小写。";
+"REGISTER_FAILED_ID_LENGTH_INVALID" = "账号限制于5~20字之间。";
+"REGISTER_FAILED_INVALID_PASSWORD" = "密码无效，仅限字母和字母，区分大小写。";
+"REGISTER_FAILED_PASSWORD_LENGTH_INVALID" = "密码限制于8~20字之间。";
+"REGISTER_FAILED_USER_EXISTS" = "该账号已被注册。";
+
+"REGISTER_FAILED_PASSWORD_MISMATCH" = "两次密码输入不一致。";
+
+"CONNECTION_FAILED" = "链接失败";
+"CONNECTION_FAILED_NO_INTERNET" = "没有连接到互联网。";

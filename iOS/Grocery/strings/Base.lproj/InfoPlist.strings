@@ -1,0 +1,8 @@
+/* 
+  infoPlist.strings
+  Grocery
+
+  Created by Xiao on 7/5/16.
+  Copyright © 2016 Xiao Lu. All rights reserved.
+*/
+"CFBundleDisplayName" = "Grocery";
