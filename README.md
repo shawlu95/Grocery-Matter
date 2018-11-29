@@ -1,6 +1,6 @@
 # Grocery Matter
 
-This is a bookkeeping iOS app for personal finance, with Python code to run SQL analytics. I wrote this bookkeeping app three years ago as a programming exercise. It has been so useful for me that I decided to share it. I have been using this app to keep track of my living expenses, insurance, tuition, rent and tax. It constantly reminded me to exercise financial planning and spend money with discretion.
+This is a bookkeeping iOS app for personal finance, with Python code to run SQL analytics. I built this bookkeeping app three years ago as a programming exercise, but it has become one of my daily companion apps. For the past three years, I have been using this app to keep track of my living expenses, insurance, tuition, rent and tax. It helped me analyze my expenses by categories, by time, and by quantity. It helped me keep track of every penny I spent, exercise financial discretion, forecast future expense and bank saving. Its only disadvantage is its inability to predict how much I'm going to lose in the stock market.
 
 The repository consists of four parts. The iOS front-end app is coded in Objective-C. The server is programmed in PHP, which interfaced with MySQL relational database client via object-oriented design. Finally, a Python module is available for connecting with the database, retrieving data as Pandas dataframe, and conducting analytics in the most flexible manner.
 
@@ -62,9 +62,9 @@ In 2018 November, I spent 60.8% of my cash outflow on tuition ($3983.87), 18.5% 
   <img src="img/year.png" width=400">
 </p>
 
-For the entire year of 2018, 33.2% of my money went to Stanford ($31.2k); 16.2% went to house rent ($15.2k), and 14.8% went to the Wall Street ($14k) as I couldn't wait to blow up my first brokerage account - RIP my hard-earned internship money. Also, 11.9% was spent on my car, repair, and gasoline (I bought a third-hand Volkswagen, broke off its side mirror one, and failed to claim insurance coverage). 
+For the entire year of 2018, 33.2% of my money went to Stanford ($31.2k); 16.2% went to house rent ($15.2k), and 14.8% went to the Wall Street ($14k) as I couldn't wait to blow up my first brokerage account - RIP my hard-earned internship money. 
 
-Of course, you can run SQL query in terminal however you like. Below are my purchase history of milk-like items, from 2016 to 2018. My financial history dates back to early 2015, but I'd spare you the torture of reviewing it in entirety. Take away: keeping my spendthrift habit in check is the first step toward financial freedom.
+Of course, you can run SQL query in terminal however you like. Below are my purchase history of dairy products from 2016 to 2018. My financial history dates back to early 2015, but I'd spare you the torture of reviewing it in entirety. 
 
 ```bash
 mysql> SELECT userID, name, price, count, time FROM items WHERE name LIKE '%milk%';
