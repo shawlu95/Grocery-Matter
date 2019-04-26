@@ -1,9 +1,10 @@
-# Grocery Matter
+## Grocery Matter
 
 This is a bookkeeping iOS app for personal finance, with Python code to run SQL analytics. I built this bookkeeping app three years ago as a programming exercise, but it has become one of my daily companion apps. For the past three years, I have been using this app to keep track of my living expenses, insurance, tuition, rent and tax. It helped me analyze my expenses by categories, by time, and by quantity. It helped me keep track of every penny I spent, exercise financial discretion, forecast future expense and bank saving. Its only disadvantage is its inability to predict how much I'm going to lose in the stock market.
 
 The repository consists of four parts. The iOS front-end app is coded in Objective-C. The server is programmed in PHP, which interfaced with MySQL relational database client via object-oriented design. Finally, a Python module is available for connecting with the database, retrieving data as Pandas dataframe, and conducting analytics in the most flexible manner.
 
+___
 ### iOS App
 The app is removed from the app store and must be run on your device through xcode. To run this app, you may need to change bundle identifier and development team.
 
@@ -13,6 +14,7 @@ The app is removed from the app store and must be run on your device through xco
   <img src="img/cloud.png" width="250">
 </p>
 
+___
 ### PHP Server
 Install MAMP/WAMP/XAMPP. Copy the entire [server](server/) folder to your localhost home directory (htdocs for MAMP). To get started, follow the steps below:
 1. Change the server IP address in the [Macros.h](iOS/Grocery/Model/Macros.h) file. The macro should end with the server directory. In the simulator, substitute ServerIP with "localhost" is fine. To work in a real iOS device, a genuine IP address must be provided. The localhost computer must be connected to the same IP address via wifi (of course, feel free to rent a AWS instance).
@@ -36,6 +38,7 @@ defined('DB_NAME')   ? null : define("DB_NAME", "grocery");
     <img src="img/schema.png" width="450">
 </p>
 
+___
 ### MySQL Schema
 
 To achieve supreme simplicity, only four tables were designed.
@@ -52,6 +55,7 @@ To achieve supreme simplicity, only four tables were designed.
 
 * sessions: session has a one-to-many relationship with requests. A user has a one-to-many relationship with sessions.
 
+___
 ### Python Analytics
 The module [analytics.py](analytics/analytics.py) offers a convenient way to instantiate a SQL client, retrieve data from the database, and return data as a Pandas dataframe. Do not try to modify data from the client (no safety checks). See notebook [analytics.ipynb](analytics/analytics.ipynb) for specific use case.
 
