@@ -1,6 +1,6 @@
 ## Grocery Matter
 
-This is a bookkeeping iOS app for personal finance, with Python code to run SQL analytics. I built this bookkeeping app three years ago as a programming exercise, but it has become one of my daily companion apps. For the past three years, I have been using this app to keep track of my living expenses, insurance, tuition, rent and tax. It helped me analyze my expenses by categories, by time, and by quantity. It helped me keep track of every penny I spent, exercise financial discretion, forecast future expense and bank saving. Its only disadvantage is its inability to predict how much I'm going to lose in the stock market.
+This is a book keeping iOS app for personal finance, with Python code to run SQL analytics. I built this bookkeeping app three years ago as a programming exercise, but it has become one of my daily companion apps. For the past three years, I have been using this app to keep track of my living expenses, insurance, tuition, rent and tax. It helped me analyze my expenses by categories, by time, and by quantity. It helped me keep track of every penny I spent, exercise financial discretion, forecast future expense and bank saving. Its only disadvantage is its inability to predict how much I'm going to lose in the stock market.
 
 The repository consists of four parts. The iOS front-end app is coded in Objective-C. The server is programmed in PHP, which interfaced with MySQL relational database client via object-oriented design. Finally, a Python module is available for connecting with the database, retrieving data as Pandas dataframe, and conducting analytics in the most flexible manner.
 
@@ -43,17 +43,17 @@ ___
 
 To achieve supreme simplicity, only four tables were designed.
 
-* users: you may easily register multiple accounts to keep track of different bank accounts. For me, I just have one personal account to track everything I spent. I also have an official account to keep track of the cash flow of the Chinese student clubs (where I serve as the financial officer). Users have one-to-many relation with items, requests, and sessions
+* Users: you may easily register multiple accounts to keep track of different bank accounts. For me, I just have one personal account to track everything I spent. I also have an official account to keep track of the cash flow of the Chinese student clubs (where I serve as the financial officer). Users have one-to-many relation with items, requests, and sessions
 
-* items: this is the centerpiece of the app. All your earnings, expenses, capital losses are stored here. I save the expense both in US dollars and Chinese yuans, pulling real-time exchange rate from the Forex. You can customize currency options by editing the following function in the item.m file.
+* Items: this is the centerpiece of the app. All your earnings, expenses, capital losses are stored here. I save the expense both in US dollars and Chinese yuans, pulling real-time exchange rate from the Forex. You can customize currency options by editing the following function in the item.m file.
 
 ```Objective-C
 + (NSNumber *)priceCNYForItemPaidInCurrency:(NSString *)currency inAmount:(NSNumber *)amount
 ```
 
-* requests: this is the log of all network traffic. Every request is documented: time, command, input and output.
+* Requests: this is the log of all network traffic. Every request is documented: time, command, input and output.
 
-* sessions: session has a one-to-many relationship with requests. A user has a one-to-many relationship with sessions.
+* Sessions: session has a one-to-many relationship with requests. A user has a one-to-many relationship with sessions.
 
 ___
 ### Python Analytics
